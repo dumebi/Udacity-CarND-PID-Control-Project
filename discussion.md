@@ -5,9 +5,10 @@ Self-Driving Car Engineer Nanodegree Program
 ---
 The purpose of this project is to build a PID controller and tune the PID hyperparameters, Describe the effect each of the P, I, D components had in implementation, and choose the final hyperparameters, to drive a car round a track surface.
 
-## Rubic Discussion Points
+# Rubic Discussion Points
+
+## Describe the effect each of the P, I, D components had in your implementation
 ---
-* Describe the effect each of the P, I, D components had in your implementation
 
 The P, or "proportional" component  causes the car to steer proportional (and opposite) to the car's distance from the lane center (its also known as the CTE) - if the car is off far to the right, it steers hard to the left and if the car is off slightly to the left it steers slightly to the right.
 
